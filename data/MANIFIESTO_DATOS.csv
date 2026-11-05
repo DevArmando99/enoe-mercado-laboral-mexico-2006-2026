@@ -1,0 +1,8 @@
+ruta_relativa,tipo,obligatorio_para_notebook,distribucion,descripcion,uso_principal
+data/parquet/historical/enoe_analisis_pl_2006T1_2026T1.parquet,Parquet,Sí,Mega,Base analítica histórica concatenada 2006T1-2026T1,Insumo principal del análisis exploratorio
+data/geo/entidades_federativas.geojson,GeoJSON,Sí,Mega,Polígonos de entidades federativas de México,Mapas estatales
+data/raw/INPC/INP_INP20260831105110.xlsx,Excel,Sí,Mega,Serie fuente del Índice Nacional de Precios al Consumidor,Deflactación trimestral a 2026T1
+data/raw/salarios_minimos/sm_general_profesionales_zonas.csv,CSV,Sí,Mega,Serie histórica de salario mínimo general,Índice de Kaitz
+data/raw/lpei/indicadores_linea_pobreza.csv,CSV,No,Mega,Indicadores de líneas de pobreza extrema por ingresos,Pipeline complementario de pobreza laboral
+data/raw/lp/pl_2005t_2026t.xlsx,Excel,No,Mega,Serie de pobreza laboral,Pipeline complementario de pobreza laboral
+data/raw/zip/,ZIP,No,Mega,Microdatos trimestrales originales descargados,Reconstrucción integral de la base histórica
