@@ -1,0 +1,11 @@
+# Entorno mínimo para ejecutar notebooks/Exploracion_ENOE_reorganizado.ipynb
+duckdb>=1.1,<2
+geopandas>=1.0,<2
+jupyterlab>=4,<5
+matplotlib>=3.8,<4
+numpy>=1.26,<3
+openpyxl>=3.1,<4
+pandas>=2.2,<3
+pyarrow>=15,<23
+seaborn>=0.13,<1
+git+https://github.com/DevArmando99/enoe-utilities.git@main
