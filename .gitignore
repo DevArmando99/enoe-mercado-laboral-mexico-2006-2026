@@ -1,0 +1,39 @@
+# Entornos y cachés
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.tmp/
+.pytest_cache/
+.mypy_cache/
+
+# Sistemas operativos y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Datos distribuidos fuera de GitHub
+data/geo/*
+!data/geo/README.md
+
+data/raw/*
+!data/raw/README.md
+
+data/parquet/*
+!data/parquet/README.md
+!data/parquet/historical/
+data/parquet/historical/*
+!data/parquet/historical/README.md
+
+# Productos reproducibles
+outputs/*
+!outputs/README.md
+
+# Publicaciones y archivos grandes
+*.parquet
+*.zip
+*.7z
+*.pdf
+*.docx
