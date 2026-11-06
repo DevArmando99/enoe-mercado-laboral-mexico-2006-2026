@@ -18,7 +18,7 @@ enoe-mercado-laboral-mexico-2006-2026/
 │   ├── DATOS_Y_REPLICACION.md
 │   └── ESTRUCTURA_DEL_PROYECTO.md
 ├── notebooks/
-│   └── Exploracion_ENOE_reorganizado.ipynb              # próxima entrega
+│   └── Exploracion_ENOE.ipynb                           # cuaderno técnico
 ├── outputs/                                             # generado al ejecutar
 ├── .gitignore
 ├── LICENSE                                              # MIT: código
@@ -38,3 +38,8 @@ Se distribuyen por Mega los Parquet, archivos comprimidos de microdatos, archivo
 ## Qué se genera localmente
 
 La carpeta `outputs/` contiene tablas, gráficos, mapas y productos intermedios emitidos al ejecutar el cuaderno. Puede eliminarse y regenerarse sin perder el código ni los insumos.
+
+## Publicaciones asociadas
+
+- [Informe de divulgación](https://mega.nz/file/QhslzRYT#SRwd_2eC5XUHmsQj1ioO9pJHwnVP6ZK03iWgrdw_MBo)
+- [Cuaderno técnico](https://mega.nz/file/hlEV0QKb#sGArTPMjkYwCjeFQOhi2WpPcNq_W1j0bjpIRLk7DzJM)
