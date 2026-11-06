@@ -5,7 +5,7 @@
 
 Repositorio de reproducción del análisis exploratorio del mercado laboral mexicano que acompaña el informe de divulgación *El trabajo en México: ¿cómo vamos?*. El estudio usa microdatos abiertos de la Encuesta Nacional de Ocupación y Empleo (ENOE) y expresa los ingresos reales en pesos de 2026T1.
 
-> **Estado del repositorio:** se está preparando la infraestructura de reproducción. El cuaderno técnico y los datos se incorporarán en entregas posteriores.
+> **Estado del repositorio:** infraestructura de reproducción publicada. El cuaderno técnico se encuentra en `notebooks/Exploracion_ENOE.ipynb`; los insumos pesados se distribuyen mediante Mega.
 
 ## Alcance
 
@@ -13,19 +13,23 @@ El cuaderno reproduce indicadores descriptivos ponderados por el factor de expan
 
 Los análisis excluyen 2020T2, periodo para el que la ENOE no levantó la encuesta habitual. Para 2026 se utiliza únicamente el primer trimestre.
 
-## Qué contendrá este repositorio
+## Qué contiene este repositorio
 
-- `notebooks/Exploracion_ENOE_reorganizado.ipynb`: cuaderno técnico reproducible.
-- `data/`: manifiestos y documentación de los insumos; los archivos voluminosos se distribuirán mediante Mega.
+- `notebooks/Exploracion_ENOE.ipynb`: cuaderno técnico reproducible.
+- `data/`: manifiestos y documentación de los insumos; los archivos voluminosos se distribuyen mediante Mega.
 - `outputs/`: carpeta de salida que generará el cuaderno.
 - `docs/`: guía de reproducción, estructura, criterios metodológicos y licencias.
 - `requirements.txt`: entorno Python mínimo.
 
-## Datos y productos
+## Datos y publicaciones
 
-Los datos no se versionan en GitHub para mantener el repositorio ligero. La carpeta de descarga en Mega y los enlaces permanentes al informe de divulgación y al **Cuaderno técnico: El trabajo en México: ¿Cómo vamos?** se agregarán cuando se publique el cuaderno definitivo.
+Los datos de reproducción se descargan desde la carpeta de Mega y deben fusionarse con la estructura del repositorio clonado:
 
-Consulta desde ahora:
+- [Paquete de datos en Mega](https://mega.nz/folder/RtVilTqL#HwadnXj5Ch8BmGkU55xvfw)
+- [Informe de divulgación: El trabajo en México: ¿Cómo vamos?](https://mega.nz/file/QhslzRYT#SRwd_2eC5XUHmsQj1ioO9pJHwnVP6ZK03iWgrdw_MBo)
+- [Cuaderno técnico: El trabajo en México: ¿Cómo vamos?](https://mega.nz/file/hlEV0QKb#sGArTPMjkYwCjeFQOhi2WpPcNq_W1j0bjpIRLk7DzJM)
+
+Consulta:
 
 - [Guía de datos y reproducción](docs/DATOS_Y_REPLICACION.md)
 - [Estructura del proyecto](docs/ESTRUCTURA_DEL_PROYECTO.md)
