@@ -4,9 +4,16 @@
 
 Este repositorio contiene el código y la documentación del análisis exploratorio **El trabajo en México: ¿cómo vamos?**. Para mantenerlo ágil y permitir una descarga realista, los microdatos procesados y los insumos de mayor tamaño se distribuyen fuera de GitHub.
 
-La descarga de Mega se publicará aquí cuando el cuaderno técnico definitivo esté disponible:
+## Datos y publicaciones
 
-> **Enlace de descarga:** pendiente de publicación.
+El paquete de datos de reproducción se encuentra en:
+
+> [Descargar la carpeta de datos en Mega](https://mega.nz/folder/RtVilTqL#HwadnXj5Ch8BmGkU55xvfw)
+
+Las publicaciones asociadas son:
+
+- [Informe de divulgación: El trabajo en México: ¿Cómo vamos?](https://mega.nz/file/QhslzRYT#SRwd_2eC5XUHmsQj1ioO9pJHwnVP6ZK03iWgrdw_MBo)
+- [Cuaderno técnico: El trabajo en México: ¿Cómo vamos?](https://mega.nz/file/hlEV0QKb#sGArTPMjkYwCjeFQOhi2WpPcNq_W1j0bjpIRLk7DzJM)
 
 ## Qué debe descargarse
 
@@ -29,13 +36,15 @@ También se requieren el GeoJSON de entidades federativas, el archivo del INPC y
    cd enoe-mercado-laboral-mexico-2006-2026
    ```
 
-2. Crea y activa un entorno virtual.
+2. Descarga desde Mega la carpeta `data/` y fusiónala con la carpeta `data/` del repositorio. No cambies las rutas ni los nombres de los archivos.
+
+3. Crea y activa un entorno virtual.
 
    **Windows (CMD):**
 
    ```bat
    py -m venv .venv
-   .venv\Scripts\activate
+   .venv\\Scripts\\activate
    ```
 
    **macOS/Linux:**
@@ -45,22 +54,20 @@ También se requieren el GeoJSON de entidades federativas, el archivo del INPC y
    source .venv/bin/activate
    ```
 
-3. Instala las dependencias.
+4. Instala las dependencias.
 
    ```bash
    python -m pip install --upgrade pip
    pip install -r requirements.txt
    ```
 
-4. Descarga los insumos de Mega y colócalos en `data/`, respetando su ruta relativa.
-
-5. Abre JupyterLab y ejecuta el cuaderno de arriba hacia abajo.
+5. Inicia Jupyter desde la raíz del repositorio y abre el cuaderno.
 
    ```bash
    jupyter lab
    ```
 
-   El cuaderno definitivo se incorporará como `notebooks/Exploracion_ENOE_reorganizado.ipynb`.
+   El cuaderno se encuentra en `notebooks/Exploracion_ENOE.ipynb`. Ejecútalo de arriba hacia abajo. Si el cuaderno usa rutas relativas con `Path.cwd()`, el kernel debe iniciarse desde la raíz del repositorio.
 
 ## Alcance de la reproducción
 
